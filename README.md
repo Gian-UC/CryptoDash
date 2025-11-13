@@ -1,73 +1,97 @@
-# React + TypeScript + Vite
+# 💸 CryptoDash - Real-Time Cryptocurrency Dashboard
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Bem-vindo ao **CryptoDash**, seu painel moderno de criptomoedas feito com 💙 em React + TypeScript + TailwindCSS.  
+Este projeto exibe as principais moedas com preço atualizado, ícones personalizados e um design elegante e minimalista!
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 📸 Preview
 
-## React Compiler
+> ⚠️
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🚀 Tecnologias Utilizadas
 
-## Expanding the ESLint configuration
+- ⚛️ **React** com **Vite**
+- 💅 **Tailwind CSS**
+- 💙 **TypeScript**
+- 🌐 **CoinGecko API** (em breve, para dados em tempo real)
+- 📦 Gerenciador de pacotes: **npm**
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+---
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+## 📁 Estrutura do Projeto
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
-
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+```bash
+src/
+├── assets/             # Imagens das criptos
+├── components/         # Componentes reutilizáveis (CryptoCard, etc)
+├── App.tsx             # Componente principal
+├── main.tsx            # Entry point
+├── index.html          # HTML principal
+└── styles              # Tailwind e arquivos .css
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+## ⚙️ **Como rodar localmente**
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+Clone o repositório:
+
+- git clone https://github.com/seu-usuario/CryptoDash.git
+
+
+Acesse a pasta do projeto:
+
+- cd CryptoDash
+
+
+Instale as dependências:
+
+- npm install
+
+
+Rode o projeto:
+
+- npm run dev
+
+
+- Acesse: http://localhost:5173
+
+
+## 📦 **Funcionalidades**
+
+📊 Cards estilizados para Bitcoin, Ethereum e Solana
+
+💰 Preço formatado em dólar americano
+
+🧠 Componentes modulares em TypeScript
+
+🎨 Estilo dark moderno com TailwindCSS
+
+⏱️ Atualização automática dos preços (em breve)
+
+---
+
+## 📌 **Próximos passos**
+
+ Exibir ícones personalizados
+
+ Estilizar com Tailwind
+
+ Componentizar os cards
+
+ Integrar com a CoinGecko API
+
+ Atualizar preços a cada 30 segundos
+
+ Adicionar animações e loading
+
+ Fazer deploy com Vercel
+
+## 🧑‍💻 **Desenvolvido por**
+
+💙 Gian (Giancarlo Salomone)
+
+🔗 www.linkedin.com/in/dev-giancarlo-salomone
+
+🔗 https://github.com/Gian-UC
