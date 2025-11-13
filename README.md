@@ -1,6 +1,6 @@
 # 💸 CryptoDash - Real-Time Cryptocurrency Dashboard
 
-Bem-vindo ao **CryptoDash**, seu painel moderno de criptomoedas feito com 💙 em React + TypeScript + TailwindCSS.  
+Bem-vindo ao **CryptoDash**, seu painel moderno de criptomoedas feito em React + TypeScript + TailwindCSS.  
 Este projeto exibe as principais moedas com preço atualizado, ícones personalizados e um design elegante e minimalista!
 
 ---
